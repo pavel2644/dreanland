@@ -1,0 +1,430 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+/*...header part start...*/
+}
+.container{
+max-width:1140px;
+margin:0 auto;  
+}
+header{
+width:100%; 	
+height:400px;
+background-color:#87509c;   
+}
+/*...Logo part start...*/
+.logo h1{
+width:40%;
+margin-left:100px; 
+float:left;  	
+color:#ecf0f1;
+font-family:Literata, serif;
+font-style:italic;
+font-size:50px;
+}
+/*...Logo part End...*/
+
+/*...Menu part start...*/
+.menu{
+width:50%; 
+float:left;  
+}
+nav{
+margin:10px 0px;
+}
+nav ul li{
+list-style:none; 
+display:inline;
+font-size:28px; 
+padding:20px; 
+font-family:'Crimson Pro', serif;
+}
+nav ul li a{
+text-decoration:none; 
+color:#ecf0f1;
+}
+/*...Menu part End...*/
+
+/*...Header content start...*/
+.header-text{
+width: 100%;
+float:left;
+color:#ecf0f1;
+font-size:28px; 
+text-align: center;
+margin-top:100px; 
+}
+.header-text h3{	
+font-family:Literata, serif;
+text-indent:0px; 
+letter-spacing:1px;  
+}
+.header-text button{
+padding:10px 20px;
+background-color:#EE5A24; 
+border:1px solid #EE5A24;
+border-radius:3px; 
+color:#ecf0f1;
+font-family:Literata, serif;
+font-size:16px;
+font-weight:bolder;
+margin:50px 0px; 
+}
+/*...headeer part End...*/
+
+/*...Service section start...*/
+.service{
+width:100%;
+height:600px;
+background-color:#17c2a4;     
+}
+.text{
+color:#ecf0f1;
+text-align:center;
+font-size:20px;  
+font-family:Literata, serif;
+padding:50px; 
+}
+.text hr{
+width:60px;
+margin-left:500px; 
+border:2px solid #c8d9e5;
+margin-top:8px; 
+}
+.text p{
+padding:10px; 
+}
+.group-image{
+width:25%;
+float:left; 
+display:inline-block;
+}
+.group-image img{
+margin:0px 90px;
+}
+.group-image h3{
+text-align:center; 
+color:#ecf0f1;
+margin-top:30px;
+}
+.group-image p{ 
+color:#ecf0f1;
+margin:20px 0px 0px 60px;
+width:75%; 
+}
+/*...Service section End...*/
+
+/*...team_meet section Start...*/
+.team_meet{
+width:100%;
+height:700px;
+background-color:#e7f1f8;
+}
+.team-text{
+color:#3c4761;
+text-align:center;
+font-size:20px;  
+font-family:Literata, serif;
+padding:50px; 
+}
+.team-text h1{
+margin-top:20px; 
+}
+.team-text hr{
+width:60px;
+margin-left:500px; 
+border:2px solid #c8d9e5;
+margin-top:8px; 
+}
+.team-text p{
+padding:10px; 
+}
+.team-image{
+width:25%; 
+float:left; 
+display:inline-block;
+
+}
+.team-image img{
+margin:0px 50px; 
+border-radius:100%; 
+}
+.team-image h2{
+color:#3c4761;
+text-align:center;
+margin-top:15px;  
+
+}
+.team-image h3{
+text-align:center; 
+color:#55c2e9;
+margin-top:30px;
+}
+.team-image p{ 
+color:#3c4761;
+margin:20px 0px 0px 60px;
+width:75%; 
+}
+
+/*...team_meet section End...*/
+
+/*...skills section Start...*/
+.skills{
+width:100%;
+height:500px;
+background-color:#ffffff;     
+}
+.skill-text{
+color:#3c4761;
+text-align:center;
+font-size:20px;  
+font-family:Literata, serif;
+padding:50px; 
+}
+.skill-text hr{
+width:60px;
+margin-left:500px; 
+border:2px solid #c8d9e5;
+margin-top:8px; 
+}
+.skill-text p{
+padding:10px; 
+}
+.skill-image{
+width:25%;
+float:left; 
+display:inline-block;
+}
+.skill-image img{
+margin:0px 90px;
+}
+.skill-image h1{
+margin:-100px 0px 0px 145px;
+font-size:40px; 
+color:#3c4761; 
+}
+.skill-image h3{
+text-align:center; 
+color:#3c4761;
+margin-top:80px;
+margin-left:50px;
+}
+/*...skills section End...*/
+
+/*...Portfolio section Start...*/
+.portfolio{
+width:100%;
+height:1200px;
+background-color:#ffdd99;     
+}
+.portfolio-text{
+color:#3c4761;
+text-align:center;
+letter-spacing:1px; 
+font-size:22px;  
+font-family:'Crimson Pro', serif;
+padding:50px; 
+}
+.portfolio-text hr{
+width:60px;
+margin-left:500px; 
+border:2px solid #e5c37f;
+margin-top:8px; 
+}
+.portfolio-text p{
+padding:10px; 
+}
+.btn-group{
+margin-left:420px; 
+margin-bottom:40px; 
+}
+.btn-group button {
+background-color:white;
+border: 1px solid #ebc985; 
+color:#3c4761; 
+padding: 10px 24px; 
+cursor: pointer; 
+border-radius:3px;
+}
+.btn-group button:not(:first-child){
+background-color:#ebc985; 
+}
+.btn-group button:hover {
+background-color:#3e8e41;
+}
+.portfolio-image{
+width:50%;
+float:left; 
+display:inline-block;
+}
+.portfolio-image img{
+margin:0px 40px;
+}
+.portfolio-image h3{
+text-align:center; 
+color:#3c4761;
+margin:15px;
+}
+.btn button{ 
+padding:12px 18px;
+background-color:#17c2a4; 
+border:1px solid #17c2a4;
+box-shadow: 2px 3px #14a58c;
+border-radius:3px; 
+color:#ecf0f1;
+font-family:Literata, serif;
+font-size:16px;
+font-weight:bolder;
+margin:40px 0px 0px 480px; 
+}
+/*...Portfolio section End...*/
+
+/*...About US section Start...*/
+.aboutus{
+width:100%;
+height:550px;
+background-color:#d74680;     
+}
+.aboutus-text{
+color:#ecf0f1;
+text-align:center;
+letter-spacing:1px; 
+font-size:22px;  
+font-family:Literata, serif;
+padding:50px; 
+}
+.aboutus-text hr{
+width:60px;
+margin-left:500px; 
+border:2px solid #b73c6d;
+margin-top:8px; 
+}
+.aboutus-text p{
+padding:10px; 
+}
+.container .aboutus-image{
+position: relative;
+max-width:500px; 
+display:flex;
+margin:10px;
+padding:15px;  
+}
+.aboutus-image{
+width:50%;
+float:left; 
+display:inline;  
+}
+.content p,h3{
+color:#ecf0f1; 
+}
+.content h4{
+color:#f5bd93; 
+}
+.content h2{
+margin-top:15px;  
+}
+.aboutus-image img{
+margin:0px 40px;
+width:80px;
+border-radius:100%; 
+}
+/*...About US section End...*/
+
+/*...Form section Start...*/
+.form{
+width:100%;
+height:550px;
+background-color:#3c5499;     
+}
+.form-text{
+color:#ecf0f1;
+text-align:center;
+letter-spacing:1px; 
+font-size:22px;  
+font-family:'Crimson Pro', serif;
+padding:50px; 
+}
+.form-text hr{
+width:60px;
+margin-left:500px; 
+border:2px solid #273a71;
+margin-top:8px; 
+}
+.form-text p{
+padding:10px; 
+}
+input[type=text] {
+width:100%;
+padding: 10px;
+border: 1px solid #273a71;
+border-radius: 4px;
+resize: vertical;
+background-color:#273a71;  
+}
+input::placeholder{
+color:white; 
+}
+textarea::placeholder{
+color:white;  
+}
+textarea{
+width:58%;
+height:150px;
+margin-top:10px; 
+margin-left:242px; 
+border: 1px solid #273a71;
+border-radius: 4px;
+resize: vertical;
+background-color:#273a71; 
+}
+input[type=submit] {
+background-color: #30bae7;
+color: white;
+padding: 12px 40px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float:left;
+margin-left:500px; 
+margin-top:25px; 
+}
+input[type=submit]:hover {
+background-color:#45a049;
+}
+.name-list input{
+margin-left:230px;  
+}
+.fst-name {
+float: left;
+width:30%;
+padding:10px; 
+}
+.lst-name {
+float: left;
+width:30%;
+padding:10px; 
+
+}
+/*...Form section End...*/
+
+/*...Footer section Start...*/
+footer{
+width:100%;
+height:80px; 
+float:center;
+background-color:#344b8e;   
+}
+.social-link{
+margin-left:220px; 
+}
+.social-link h4{
+text-align:center;
+color:#ecf0f1;
+display:inline-block;
+font-family:'Crimson Pro', serif;
+font-size:25px; 
+padding:25px; 
+
+}
+/*...Footer section End...*/
